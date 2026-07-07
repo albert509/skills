@@ -1,9 +1,12 @@
 ---
 name: codebase-audit
-description: Use when the user asks to audit, assess, review, health-check, understand, onboard into, map, or produce a report for a software codebase. Also use when another skill needs codebase findings, architectural risks, conventions, onboarding notes, or prioritized engineering action items.
+description: Audit, assess, review, health-check, understand, onboard into, map, or produce a report for a software codebase. Invoke explicitly as $codebase-audit when the user wants codebase findings, architectural risks, conventions, onboarding notes, or prioritized engineering action items.
+disable-model-invocation: true
 ---
 
 # Codebase Audit
+
+This skill is opt-in. Use it only when explicitly invoked, such as with `$codebase-audit`, or when the user directly asks to run the installed Codebase Audit skill.
 
 A codebase audit is an evidence-first pass through a repository that turns orientation into judgment. The output must help one of two audiences: auditors making technical decisions, or developers learning how to contribute safely in the existing style.
 
