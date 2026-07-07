@@ -1,0 +1,21 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and local workspace state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Dependency/cache directories that should not be committed from copied examples
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/

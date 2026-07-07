@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Audit"
+  short_description: "Audit and onboard into large codebases"
+  default_prompt: "Use $codebase-audit to map this repository, identify its core patterns, and produce evidence-backed onboarding notes."
