@@ -18,8 +18,6 @@ Published skills live under `skills/`. Each skill folder should match the `name`
 skills/
 └── skill-name/
     ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
     └── references/
         └── ...
 ```
@@ -51,11 +49,3 @@ npx skills@latest add ./ --skill codebase-discovery
 ```
 
 Restart Codex after adding or updating skills so the registry can refresh.
-
-## Validate
-
-Use the bundled `skill-creator` validator from Codex when available:
-
-```bash
-python3 /Users/luisalmonte/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/codebase-discovery
-```
