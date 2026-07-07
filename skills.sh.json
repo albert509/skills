@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Codebase Understanding",
+      "description": "Skills for auditing, mapping, and onboarding into software codebases.",
+      "skills": ["codebase-audit"]
+    }
+  ]
+}
