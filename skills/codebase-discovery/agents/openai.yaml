@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Discovery"
+  short_description: "Map and learn unfamiliar codebases"
+  default_prompt: "Use $codebase-discovery to map this repository and produce a developer-focused Codebase Field Guide."

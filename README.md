@@ -8,7 +8,7 @@ Personal Codex/agent skills for reusable engineering workflows.
 
 | Skill | Purpose |
 |---|---|
-| [`codebase-audit`](skills/codebase-audit/) | Audit, understand, map, and onboard into large software codebases with evidence-backed findings and action items. |
+| [`codebase-discovery`](skills/codebase-discovery/) | Discover, map, and onboard into large software codebases with developer-focused field guides. |
 
 ## Layout
 
@@ -41,13 +41,13 @@ npx skills@latest add albert509/skills --list
 To install only one skill:
 
 ```bash
-npx skills@latest add albert509/skills --skill codebase-audit
+npx skills@latest add albert509/skills --skill codebase-discovery
 ```
 
 For local development before publishing:
 
 ```bash
-npx skills@latest add ./ --skill codebase-audit
+npx skills@latest add ./ --skill codebase-discovery
 ```
 
 Restart Codex after adding or updating skills so the registry can refresh.
@@ -57,5 +57,5 @@ Restart Codex after adding or updating skills so the registry can refresh.
 Use the bundled `skill-creator` validator from Codex when available:
 
 ```bash
-python /Users/luisalmonte/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/codebase-audit
+python3 /Users/luisalmonte/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/codebase-discovery
 ```

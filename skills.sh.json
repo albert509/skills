@@ -4,8 +4,8 @@
   "groupings": [
     {
       "title": "Codebase Understanding",
-      "description": "Skills for auditing, mapping, and onboarding into software codebases.",
-      "skills": ["codebase-audit"]
+      "description": "Skills for discovering, mapping, and onboarding into software codebases.",
+      "skills": ["codebase-discovery"]
     }
   ]
 }
